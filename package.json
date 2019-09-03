@@ -1,0 +1,27 @@
+{
+  "name": "twentyfour",
+  "version": "0.1.0",
+  "private": true,
+  "license": "UNLICENSED",
+  "devDependencies": {
+    "@fitbit/sdk": "~3.1.2",
+    "@fitbit/sdk-cli": "^1.6.3"
+  },
+  "fitbit": {
+    "appUUID": "993e4b9a-4491-46e3-8b29-48bf37ad796f",
+    "appType": "clockface",
+    "appDisplayName": "Twentyfour",
+    "iconFile": "resources/icon.png",
+    "wipeColor": "#ffffff",
+    "requestedPermissions": [],
+    "buildTargets": [
+      "meson"
+    ],
+    "i18n": {},
+    "defaultLanguage": "en-US"
+  },
+  "scripts": {
+    "build": "fitbit-build",
+    "debug": "fitbit"
+  }
+}
