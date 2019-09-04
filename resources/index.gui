@@ -1,351 +1,317 @@
 <svg>
-	<!--
-	<g id="Hours" transform="translate(-50, -50)" fill="#FFFFFF">
-	<text id="1" transform="translate(198.223543, 204.897777) rotate(15.000000) translate(-198.223543, -204.897777) " font-size="18">
-	<tspan x="191.311543" y="84.3647269">
-	1
-	</tspan>
-	</text>
-	<text id="2" transform="translate(196.500000, 204.330127) rotate(30.000000) translate(-196.500000, -204.330127) " font-size="18">
-	<tspan x="189.588" y="83.7970765">
-	2
-	</tspan>
-	</text>
-	<text id="3" transform="translate(195.464466, 203.535534) rotate(45.000000) translate(-195.464466, -203.535534) " font-size="18">
-	<tspan x="188.552466" y="83.0024834">
-	3
-	</tspan>
-	</text>
-	<text id="4" transform="translate(194.669873, 202.500000) rotate(60.000000) translate(-194.669873, -202.500000) " font-size="18">
-	<tspan x="187.757873" y="81.9669495">
-	4
-	</tspan>
-	</text>
-	<text id="5" transform="translate(194.170371, 201.294095) rotate(75.000000) translate(-194.170371, -201.294095) " font-size="18">
-	<tspan x="187.258371" y="80.7610447">
-	5
-	</tspan>
-	</text>
-	<text id="6" transform="translate(194.000000, 200.000000) rotate(90.000000) translate(-194.000000, -200.000000) " font-size="18">
-	<tspan x="187.088" y="79.4669495">
-	6
-	</tspan>
-	</text>
-	<text id="7" transform="translate(194.170371, 198.705905) rotate(105.000000) translate(-194.170371, -198.705905) " font-size="18">
-	<tspan x="187.258371" y="78.1728542">
-	7
-	</tspan>
-	</text>
-	<text id="8" transform="translate(194.669873, 197.500000) rotate(120.000000) translate(-194.669873, -197.500000) " font-size="18">
-	<tspan x="187.757873" y="76.9669495">
-	8
-	</tspan>
-	</text>
-	<text id="9" transform="translate(195.464466, 196.464466) rotate(135.000000) translate(-195.464466, -196.464466) " font-size="18">
-	<tspan x="188.552466" y="75.9314156">
-	9
-	</tspan>
-	</text>
-	<text id="10" transform="translate(196.000000, 194.803848) rotate(150.000000) translate(-196.000000, -194.803848) " font-size="16">
-	<tspan x="185.216" y="72.8038476">
-	10
-	</tspan>
-	</text>
-	<text id="11" transform="translate(197.447086, 194.204445) rotate(165.000000) translate(-197.447086, -194.204445) " font-size="16">
-	<tspan x="186.663086" y="72.204445">
-	11
-	</tspan>
-	</text>
-	<text id="12" transform="translate(199.000000, 194.000000) rotate(180.000000) translate(-199.000000, -194.000000) " font-size="16">
-	<tspan x="188.216" y="72">
-	12
-	</tspan>
-	</text>
-	<text id="13" transform="translate(200.552914, 194.204445) rotate(195.000000) translate(-200.552914, -194.204445) " font-size="16">
-	<tspan x="189.768914" y="72.204445">
-	13
-	</tspan>
-	</text>
-	<text id="14" transform="translate(202.000000, 194.803848) rotate(210.000000) translate(-202.000000, -194.803848) " font-size="16">
-	<tspan x="191.216" y="72.8038476">
-	14
-	</tspan>
-	</text>
-	<text id="15" transform="translate(203.242641, 195.757359) rotate(225.000000) translate(-203.242641, -195.757359) " font-size="16">
-	<tspan x="192.458641" y="73.7573593">
-	15
-	</tspan>
-	</text>
-	<text id="16" transform="translate(204.196152, 197.000000) rotate(240.000000) translate(-204.196152, -197.000000) " font-size="16">
-	<tspan x="193.412152" y="75">
-	16
-	</tspan>
-	</text>
-	<text id="17" transform="translate(204.795555, 198.447086) rotate(255.000000) translate(-204.795555, -198.447086) " font-size="16">
-	<tspan x="194.011555" y="76.4470857">
-	17
-	</tspan>
-	</text>
-	<text id="18" transform="translate(205.000000, 200.000000) rotate(270.000000) translate(-205.000000, -200.000000) " font-size="16">
-	<tspan x="194.216" y="78">
-	18
-	</tspan>
-	</text>
-	<text id="19" transform="translate(204.795555, 201.552914) rotate(285.000000) translate(-204.795555, -201.552914) " font-size="16">
-	<tspan x="194.011555" y="79.5529143">
-	19
-	</tspan>
-	</text>
-	<text id="20" transform="translate(204.196152, 203.000000) rotate(300.000000) translate(-204.196152, -203.000000) " font-size="16">
-	<tspan x="193.412152" y="81">
-	20
-	</tspan>
-	</text>
-	<text id="21" transform="translate(203.242641, 204.242641) rotate(315.000000) translate(-203.242641, -204.242641) " font-size="16">
-	<tspan x="192.458641" y="82.2426407">
-	21
-	</tspan>
-	</text>
-	<text id="22" transform="translate(202.000000, 205.196152) rotate(330.000000) translate(-202.000000, -205.196152) " font-size="16">
-	<tspan x="191.216" y="83.1961524">
-	22
-	</tspan>
-	</text>
-	<text id="23" transform="translate(200.552914, 205.795555) rotate(345.000000) translate(-200.552914, -205.795555) " font-size="16">
-	<tspan x="189.768914" y="83.795555">
-	23
-	</tspan>
-	</text>
-	<text id="0" transform="translate(199.000000, 205.000000) rotate(360.000000) translate(-199.000000, -205.000000) " font-size="18">
-	<tspan x="192.088" y="84.4669495">
-	0
-	</tspan>
-	</text>
-	</g>
-	<g id="Hours-Ticks" transform="translate(37.000000, 37.000000)" fill="#D8D8D8">
-	<rect id="Rectangle" x="111" y="0" width="4" height="4">
-	</rect>
-	<path d="M127.502454,0.692501921 L127.502454,4.69250192 L125.502454,4.69250192 L125.502454,0.692501921 L127.502454,0.692501921 Z" id="Rectangle-2" transform="translate(125.533996, 2.713907) rotate(7.500000) translate(-125.533996, -2.713907) ">
-	</path>
-	<path d="M143.728914,3.78223328 L143.728914,7.78223328 L139.728914,7.78223328 L139.728914,3.78223328 L143.728914,3.78223328 Z" id="Rectangle-2" transform="translate(141.728914, 5.782233) rotate(15.000000) translate(-141.728914, -5.782233) ">
-	</path>
-	<path d="M155.55231,8.06636363 L155.55231,12.0663636 L153.55231,12.0663636 L153.55231,8.06636363 L155.55231,8.06636363 Z" id="Rectangle-2" transform="translate(154.552329, 10.070727) rotate(22.500000) translate(-154.552329, -10.070727) ">
-	</path>
-	<path d="M170.5,14.8711802 L170.5,18.8711802 L166.5,18.8711802 L166.5,14.8711802 L170.5,14.8711802 Z" id="Rectangle-2" transform="translate(168.500000, 16.871180) rotate(30.000000) translate(-168.500000, -16.871180) ">
-	</path>
-	<path d="M180.776505,22.3281278 L180.776505,26.3281278 L178.776505,26.3281278 L178.776505,22.3281278 L180.776505,22.3281278 Z" id="Rectangle-2" transform="translate(179.776524, 24.332491) rotate(37.500000) translate(-179.776524, -24.332491) ">
-	</path>
-	<path d="M193.488853,32.5111473 L193.488853,36.5111473 L189.488853,36.5111473 L189.488853,32.5111473 L193.488853,32.5111473 Z" id="Rectangle-2" transform="translate(191.488853, 34.511147) rotate(45.000000) translate(-191.488853, -34.511147) ">
-	</path>
-	<path d="M201.449991,42.6324362 L201.449991,46.6324362 L199.449991,46.6324362 L199.449991,42.6324362 L201.449991,42.6324362 Z" id="Rectangle-2" transform="translate(200.450010, 44.636799) rotate(52.500000) translate(-200.450010, -44.636799) ">
-	</path>
-	<path d="M211.12882,55.5 L211.12882,59.5 L207.12882,59.5 L207.12882,55.5 L211.12882,55.5 Z" id="Rectangle-2" transform="translate(209.128820, 57.500000) rotate(60.000000) translate(-209.128820, -57.500000) ">
-	</path>
-	<path d="M216.163902,67.5955837 L216.163902,71.5955837 L214.163902,71.5955837 L214.163902,67.5955837 L216.163902,67.5955837 Z" id="Rectangle-2" transform="translate(215.163921, 69.599947) rotate(67.500000) translate(-215.163921, -69.599947) ">
-	</path>
-	<path d="M222.217767,82.271086 L222.217767,86.271086 L218.217767,86.271086 L218.217767,82.271086 L222.217767,82.271086 Z" id="Rectangle-2" transform="translate(220.217767, 84.271086) rotate(75.000000) translate(-220.217767, -84.271086) ">
-	</path>
-	<path d="M223.915511,95.5163732 L223.915511,99.5163732 L221.915511,99.5163732 L221.915511,95.5163732 L223.915511,95.5163732 Z" id="Rectangle-2" transform="translate(222.915530, 97.520736) rotate(82.500000) translate(-222.915530, -97.520736) ">
-	</path>
-	<path d="M226,111 L226,115 L222,115 L222,111 L226,111 Z" id="Rectangle-2" transform="translate(224.000000, 113.000000) rotate(90.000000) translate(-224.000000, -113.000000) ">
-	</path>
-	<path d="M224.176559,124.492049 L224.176559,128.492049 L222.176559,128.492049 L222.176559,124.492049 L224.176559,124.492049 Z" id="Rectangle-2" transform="translate(223.176578, 126.496412) rotate(97.500000) translate(-223.176578, -126.496412) ">
-	</path>
-	<path d="M222.217767,139.728914 L222.217767,143.728914 L218.217767,143.728914 L218.217767,139.728914 L222.217767,139.728914 Z" id="Rectangle-2" transform="translate(220.217767, 141.728914) rotate(105.000000) translate(-220.217767, -141.728914) ">
-	</path>
-	<path d="M216.929254,152.547966 L216.929254,156.547966 L214.929254,156.547966 L214.929254,152.547966 L216.929254,152.547966 Z" id="Rectangle-2" transform="translate(215.929273, 154.552329) rotate(112.500000) translate(-215.929273, -154.552329) ">
-	</path>
-	<path d="M211.12882,166.5 L211.12882,170.5 L207.12882,170.5 L207.12882,166.5 L211.12882,166.5 Z" id="Rectangle-2" transform="translate(209.128820, 168.500000) rotate(120.000000) translate(-209.128820, -168.500000) ">
-	</path>
-	<path d="M202.66749,177.772161 L202.66749,181.772161 L200.66749,181.772161 L200.66749,177.772161 L202.66749,177.772161 Z" id="Rectangle-2" transform="translate(201.667509, 179.776524) rotate(127.500000) translate(-201.667509, -179.776524) ">
-	</path>
-	<path d="M193.488853,189.488853 L193.488853,193.488853 L189.488853,193.488853 L189.488853,189.488853 L193.488853,189.488853 Z" id="Rectangle-2" transform="translate(191.488853, 191.488853) rotate(135.000000) translate(-191.488853, -191.488853) ">
-	</path>
-	<path d="M182.363182,198.445647 L182.363182,202.445647 L180.363182,202.445647 L180.363182,198.445647 L182.363182,198.445647 Z" id="Rectangle-2" transform="translate(181.363201, 200.450010) rotate(142.500000) translate(-181.363201, -200.450010) ">
-	</path>
-	<path d="M170.5,207.12882 L170.5,211.12882 L166.5,211.12882 L166.5,207.12882 L170.5,207.12882 Z" id="Rectangle-2" transform="translate(168.500000, 209.128820) rotate(150.000000) translate(-168.500000, -209.128820) ">
-	</path>
-	<path d="M159.260267,212.772355 L159.260267,216.772355 L157.260267,216.772355 L157.260267,212.772355 L159.260267,212.772355 Z" id="Half-Template" transform="translate(157.291660, 214.785308) rotate(157.500000) translate(-157.291660, -214.785308) ">
-	</path>
-	<path d="M143.728914,218.217767 L143.728914,222.217767 L139.728914,222.217767 L139.728914,218.217767 L143.728914,218.217767 Z" id="Hour-Template" transform="translate(141.728914, 220.217767) rotate(165.000000) translate(-141.728914, -220.217767) ">
-	</path>
-	<path d="M131.40709,220.767629 L131.40709,224.767629 L129.40709,224.767629 L129.40709,220.767629 L131.40709,220.767629 Z" id="Half-Template" transform="translate(129.438482, 222.780583) rotate(172.500000) translate(-129.438482, -222.780583) ">
-	</path>
-	<path d="M115,222 L115,226 L111,226 L111,222 L115,222 Z" id="Hour-Template" transform="translate(113.000000, 224.000000) rotate(180.000000) translate(-113.000000, -224.000000) ">
-	</path>
-	<path d="M102.433656,221.281539 L102.433656,225.281539 L100.433656,225.281539 L100.433656,221.281539 L102.433656,221.281539 Z" id="Half-Template" transform="translate(100.465049, 223.294492) rotate(187.500000) translate(-100.465049, -223.294492) ">
-	</path>
-	<path d="M86.271086,218.217767 L86.271086,222.217767 L82.271086,222.217767 L82.271086,218.217767 L86.271086,218.217767 Z" id="Hour-Template" transform="translate(84.271086, 220.217767) rotate(195.000000) translate(-84.271086, -220.217767) ">
-	</path>
-	<path d="M74.3144593,214.279061 L74.3144593,218.279061 L72.3144593,218.279061 L72.3144593,214.279061 L74.3144593,214.279061 Z" id="Half-Template" transform="translate(72.345852, 216.292014) rotate(202.500000) translate(-72.345852, -216.292014) ">
-	</path>
-	<path d="M59.5,207.12882 L59.5,211.12882 L55.5,211.12882 L55.5,207.12882 L59.5,207.12882 Z" id="Hour-Template" transform="translate(57.500000, 209.128820) rotate(210.000000) translate(-57.500000, -209.128820) ">
-	</path>
-	<path d="M48.9657753,200.237404 L48.9657753,204.237404 L46.9657753,204.237404 L46.9657753,200.237404 L48.9657753,200.237404 Z" id="Half-Template" transform="translate(46.997168, 202.250357) rotate(217.500000) translate(-46.997168, -202.250357) ">
-	</path>
-	<path d="M36.5111473,189.488853 L36.5111473,193.488853 L32.5111473,193.488853 L32.5111473,189.488853 L36.5111473,189.488853 Z" id="Hour-Template" transform="translate(34.511147, 191.488853) rotate(225.000000) translate(-34.511147, -191.488853) ">
-	</path>
-	<path d="M28.1150752,180.113481 L28.1150752,184.113481 L26.1150752,184.113481 L26.1150752,180.113481 L28.1150752,180.113481 Z" id="Half-Template" transform="translate(26.146468, 182.126435) rotate(232.500000) translate(-26.146468, -182.126435) ">
-	</path>
-	<path d="M18.8711802,166.5 L18.8711802,170.5 L14.8711802,170.5 L14.8711802,166.5 L18.8711802,166.5 Z" id="Hour-Template" transform="translate(16.871180, 168.500000) rotate(240.000000) translate(-16.871180, -168.500000) ">
-	</path>
-	<path d="M13.1832998,155.278707 L13.1832998,159.278707 L11.1832998,159.278707 L11.1832998,155.278707 L13.1832998,155.278707 Z" id="Half-Template" transform="translate(11.214692, 157.291660) rotate(247.500000) translate(-11.214692, -157.291660) ">
-	</path>
-	<path d="M7.78223328,139.728914 L7.78223328,143.728914 L3.78223328,143.728914 L3.78223328,139.728914 L7.78223328,139.728914 Z" id="Hour-Template" transform="translate(5.782233, 141.728914) rotate(255.000000) translate(-5.782233, -141.728914) ">
-	</path>
-	<path d="M5.18802483,127.425529 L5.18802483,131.425529 L3.18802483,131.425529 L3.18802483,127.425529 L5.18802483,127.425529 Z" id="Half-Template" transform="translate(3.219417, 129.438482) rotate(262.500000) translate(-3.219417, -129.438482) ">
-	</path>
-	<path d="M4,111 L4,115 L0,115 L0,111 L4,111 Z" id="Hour-Template" transform="translate(2.000000, 113.000000) rotate(270.000000) translate(-2.000000, -113.000000) ">
-	</path>
-	<path d="M4.67411519,98.452096 L4.67411519,102.452096 L2.67411519,102.452096 L2.67411519,98.452096 L4.67411519,98.452096 Z" id="Half-Template" transform="translate(2.705508, 100.465049) rotate(277.500000) translate(-2.705508, -100.465049) ">
-	</path>
-	<path d="M7.78223328,82.271086 L7.78223328,86.271086 L3.78223328,86.271086 L3.78223328,82.271086 L7.78223328,82.271086 Z" id="Hour-Template" transform="translate(5.782233, 84.271086) rotate(285.000000) translate(-5.782233, -84.271086) ">
-	</path>
-	<path d="M11.6765929,70.3328989 L11.6765929,74.3328989 L9.67659291,74.3328989 L9.67659291,70.3328989 L11.6765929,70.3328989 Z" id="Half-Template" transform="translate(9.707986, 72.345852) rotate(292.500000) translate(-9.707986, -72.345852) ">
-	</path>
-	<path d="M18.8711802,55.5 L18.8711802,59.5 L14.8711802,59.5 L14.8711802,55.5 L18.8711802,55.5 Z" id="Hour-Template" transform="translate(16.871180, 57.500000) rotate(300.000000) translate(-16.871180, -57.500000) ">
-	</path>
-	<path d="M25.7182507,44.9842149 L25.7182507,48.9842149 L23.7182507,48.9842149 L23.7182507,44.9842149 L25.7182507,44.9842149 Z" id="Half-Template" transform="translate(23.749643, 46.997168) rotate(307.500000) translate(-23.749643, -46.997168) ">
-	</path>
-	<path d="M36.5111473,32.5111473 L36.5111473,36.5111473 L32.5111473,36.5111473 L32.5111473,32.5111473 L36.5111473,32.5111473 Z" id="Hour-Template" transform="translate(34.511147, 34.511147) rotate(315.000000) translate(-34.511147, -34.511147) ">
-	</path>
-	<path d="M45.8421728,24.1335147 L45.8421728,28.1335147 L43.8421728,28.1335147 L43.8421728,24.1335147 L45.8421728,24.1335147 Z" id="Half-Template" transform="translate(43.873565, 26.146468) rotate(322.500000) translate(-43.873565, -26.146468) ">
-	</path>
-	<path d="M59.5,14.8711802 L59.5,18.8711802 L55.5,18.8711802 L55.5,14.8711802 L59.5,14.8711802 Z" id="Hour-Template" transform="translate(57.500000, 16.871180) rotate(330.000000) translate(-57.500000, -16.871180) ">
-	</path>
-	<path d="M70.6769472,9.20173932 L70.6769472,13.2017393 L68.6769472,13.2017393 L68.6769472,9.20173932 L70.6769472,9.20173932 Z" id="Half-Template" transform="translate(68.708340, 11.214692) rotate(337.500000) translate(-68.708340, -11.214692) ">
-	</path>
-	<path d="M86.271086,3.78223328 L86.271086,7.78223328 L82.271086,7.78223328 L82.271086,3.78223328 L86.271086,3.78223328 Z" id="Hour-Template" transform="translate(84.271086, 5.782233) rotate(345.000000) translate(-84.271086, -5.782233) ">
-	</path>
-	<path d="M98.5301251,1.2064644 L98.5301251,5.2064644 L96.5301251,5.2064644 L96.5301251,1.2064644 L98.5301251,1.2064644 Z" id="Half-Template" transform="translate(96.561518, 3.219417) rotate(352.500000) translate(-96.561518, -3.219417) ">
-	</path>
-	</g>
-	<g id="Minutes" transform="translate(5.000000, 7.000000)" fill="#5E91CE" font-size="14">
-	<text id="0">
-	<tspan x="140.94" y="53">
-	0
-	</tspan>
-	</text>
-	<text id="5" transform="translate(145.000000, 145.000000) rotate(30.000000) translate(-145.000000, -145.000000) ">
-	<tspan x="140.94" y="53">
-	5
-	</tspan>
-	</text>
-	<text id="10" transform="translate(145.000000, 145.000000) rotate(60.000000) translate(-145.000000, -145.000000) ">
-	<tspan x="136.88" y="53">
-	10
-	</tspan>
-	</text>
-	<text id="15" transform="translate(145.000000, 145.000000) rotate(90.000000) translate(-145.000000, -145.000000) ">
-	<tspan x="136.88" y="53">
-	15
-	</tspan>
-	</text>
-	<text id="20" transform="translate(145.000000, 145.000000) rotate(120.000000) translate(-145.000000, -145.000000) ">
-	<tspan x="136.88" y="53">
-	20
-	</tspan>
-	</text>
-	<text id="25" transform="translate(145.000000, 145.000000) rotate(150.000000) translate(-145.000000, -145.000000) ">
-	<tspan x="136.88" y="53">
-	25
-	</tspan>
-	</text>
-	<text id="30" transform="translate(145.000000, 145.000000) rotate(180.000000) translate(-145.000000, -145.000000) ">
-	<tspan x="136.88" y="53">
-	30
-	</tspan>
-	</text>
-	<text id="35" transform="translate(145.000000, 145.000000) rotate(210.000000) translate(-145.000000, -145.000000) ">
-	<tspan x="136.88" y="53">
-	35
-	</tspan>
-	</text>
-	<text id="40" transform="translate(145.000000, 145.000000) rotate(240.000000) translate(-145.000000, -145.000000) ">
-	<tspan x="136.88" y="53">
-	40
-	</tspan>
-	</text>
-	<text id="45" transform="translate(145.000000, 145.000000) rotate(270.000000) translate(-145.000000, -145.000000) ">
-	<tspan x="136.88" y="53">
-	45
-	</tspan>
-	</text>
-	<text id="50" transform="translate(145.000000, 145.000000) rotate(300.000000) translate(-145.000000, -145.000000) ">
-	<tspan x="136.88" y="53">
-	50
-	</tspan>
-	</text>
-	<text id="55" transform="translate(145.000000, 145.000000) rotate(330.000000) translate(-145.000000, -145.000000) ">
-	<tspan x="136.88" y="53">
-	55
-	</tspan>
-	</text>
-	</g>
-	-->
+	<circle id="Center" fill="fb-dark-gray" cx="50%" cy="50%" r="142" />
+	<circle id="Center" fill="#181818" cx="50%" cy="50%" r="139" />
 	<!-- // Minutes Progress // -->
-	<arc x="50%-106" y="50%-106" width="212" height="212" fill="#201E1E" arc-width="22" start-angle="0" sweep-angle="360" />
-	<arc id="MinutesProgress" x="50%-106" y="50%-106" width="212" height="212" fill="#315E93" arc-width="22" start-angle="0" sweep-angle="90" />
+	<arc x="50%-106" y="50%-106" width="212" height="212" fill="fb-extra-dark-gray" arc-width="22" start-angle="0" sweep-angle="360" />
+	<arc id="MinutesProgress" x="50%-106" y="50%-106" width="212" height="212" fill="fb-blue" arc-width="22" start-angle="0" sweep-angle="90" />
 	<!-- // Minutes Numbers // -->
 	<svg x="50%-106" y="50%-106" width="212" height="212">
 		<g transform="translate(50%, 50%) rotate(0)">
-			<text x="0" y="-50%+14" font-size="14" text-anchor="middle" fill="#5E91CE">
+			<text x="0" y="-50%+14" font-size="14" text-anchor="middle" fill="fb-cyan">
 				0
 			</text>
 		</g>
 		<g transform="translate(50%, 50%) rotate(30)">
-			<text x="0" y="-50%+14" font-size="14" text-anchor="middle" fill="#5E91CE">
+			<text x="0" y="-50%+14" font-size="14" text-anchor="middle" fill="fb-cyan">
 				5
 			</text>
 		</g>
 		<g transform="translate(50%, 50%) rotate(60)">
-			<text x="0" y="-50%+14" font-size="14" text-anchor="middle" fill="#5E91CE">
+			<text x="0" y="-50%+14" font-size="14" text-anchor="middle" fill="fb-cyan">
 				10
 			</text>
 		</g>
 		<g transform="translate(50%, 50%) rotate(90)">
-			<text x="0" y="-50%+14" font-size="14" text-anchor="middle" fill="#5E91CE">
+			<text x="0" y="-50%+14" font-size="14" text-anchor="middle" fill="fb-cyan">
 				15
 			</text>
 		</g>
 		<g transform="translate(50%, 50%) rotate(120)">
-			<text x="0" y="-50%+14" font-size="14" text-anchor="middle" fill="#5E91CE">
+			<text x="0" y="-50%+14" font-size="14" text-anchor="middle" fill="fb-cyan">
 				20
 			</text>
 		</g>
 		<g transform="translate(50%, 50%) rotate(150)">
-			<text x="0" y="-50%+14" font-size="14" text-anchor="middle" fill="#5E91CE">
+			<text x="0" y="-50%+14" font-size="14" text-anchor="middle" fill="fb-cyan">
 				25
 			</text>
 		</g>
 		<g transform="translate(50%, 50%) rotate(180)">
-			<text x="0" y="-50%+14" font-size="14" text-anchor="middle" fill="#5E91CE">
+			<text x="0" y="-50%+14" font-size="14" text-anchor="middle" fill="fb-cyan">
 				30
 			</text>
 		</g>
 		<g transform="translate(50%, 50%) rotate(210)">
-			<text x="0" y="-50%+14" font-size="14" text-anchor="middle" fill="#5E91CE">
+			<text x="0" y="-50%+14" font-size="14" text-anchor="middle" fill="fb-cyan">
 				35
 			</text>
 		</g>
 		<g transform="translate(50%, 50%) rotate(240)">
-			<text x="0" y="-50%+14" font-size="14" text-anchor="middle" fill="#5E91CE">
+			<text x="0" y="-50%+14" font-size="14" text-anchor="middle" fill="fb-cyan">
 				40
 			</text>
 		</g>
 		<g transform="translate(50%, 50%) rotate(270)">
-			<text x="0" y="-50%+14" font-size="14" text-anchor="middle" fill="#5E91CE">
+			<text x="0" y="-50%+14" font-size="14" text-anchor="middle" fill="fb-cyan">
 				45
 			</text>
 		</g>
 		<g transform="translate(50%, 50%) rotate(300)">
-			<text x="0" y="-50%+14" font-size="14" text-anchor="middle" fill="#5E91CE">
+			<text x="0" y="-50%+14" font-size="14" text-anchor="middle" fill="fb-cyan">
 				50
 			</text>
 		</g>
 		<g transform="translate(50%, 50%) rotate(330)">
-			<text x="0" y="-50%+14" font-size="14" text-anchor="middle" fill="#5E91CE">
+			<text x="0" y="-50%+14" font-size="14" text-anchor="middle" fill="fb-cyan">
 				55
+			</text>
+		</g>
+	</svg>
+	<!-- // Hours Numbers // -->
+	<svg x="50%-113" y="50%-113" width="226" height="226">
+		<!-- // Big Ticks // -->
+		<g transform="translate(50%,50%) rotate(0)">
+			<rect x="0%-2" y="-50%" width="4" height="4" fill="fb-light-gray" />
+			<rect x="0%-2" y="50%-4" width="4" height="4" fill="fb-light-gray" />
+		</g>
+		<g transform="translate(50%,50%) rotate(15)">
+			<rect x="0%-2" y="-50%" width="4" height="4" fill="fb-light-gray" />
+			<rect x="0%-2" y="50%-4" width="4" height="4" fill="fb-light-gray" />
+		</g>
+		<g transform="translate(50%,50%) rotate(30)">
+			<rect x="0%-2" y="-50%" width="4" height="4" fill="fb-light-gray" />
+			<rect x="0%-2" y="50%-4" width="4" height="4" fill="fb-light-gray" />
+		</g>
+		<g transform="translate(50%,50%) rotate(45)">
+			<rect x="0%-2" y="-50%" width="4" height="4" fill="fb-light-gray" />
+			<rect x="0%-2" y="50%-4" width="4" height="4" fill="fb-light-gray" />
+		</g>
+		<g transform="translate(50%,50%) rotate(60)">
+			<rect x="0%-2" y="-50%" width="4" height="4" fill="fb-light-gray" />
+			<rect x="0%-2" y="50%-4" width="4" height="4" fill="fb-light-gray" />
+		</g>
+		<g transform="translate(50%,50%) rotate(75)">
+			<rect x="0%-2" y="-50%" width="4" height="4" fill="fb-light-gray" />
+			<rect x="0%-2" y="50%-4" width="4" height="4" fill="fb-light-gray" />
+		</g>
+		<g transform="translate(50%,50%) rotate(90)">
+			<rect x="0%-2" y="-50%" width="4" height="4" fill="fb-light-gray" />
+			<rect x="0%-2" y="50%-4" width="4" height="4" fill="fb-light-gray" />
+		</g>
+		<g transform="translate(50%,50%) rotate(105)">
+			<rect x="0%-2" y="-50%" width="4" height="4" fill="fb-light-gray" />
+			<rect x="0%-2" y="50%-4" width="4" height="4" fill="fb-light-gray" />
+		</g>
+		<g transform="translate(50%,50%) rotate(120)">
+			<rect x="0%-2" y="-50%" width="4" height="4" fill="fb-light-gray" />
+			<rect x="0%-2" y="50%-4" width="4" height="4" fill="fb-light-gray" />
+		</g>
+		<g transform="translate(50%,50%) rotate(135)">
+			<rect x="0%-2" y="-50%" width="4" height="4" fill="fb-light-gray" />
+			<rect x="0%-2" y="50%-4" width="4" height="4" fill="fb-light-gray" />
+		</g>
+		<g transform="translate(50%,50%) rotate(150)">
+			<rect x="0%-2" y="-50%" width="4" height="4" fill="fb-light-gray" />
+			<rect x="0%-2" y="50%-4" width="4" height="4" fill="fb-light-gray" />
+		</g>
+		<g transform="translate(50%,50%) rotate(165)">
+			<rect x="0%-2" y="-50%" width="4" height="4" fill="fb-light-gray" />
+			<rect x="0%-2" y="50%-4" width="4" height="4" fill="fb-light-gray" />
+		</g>
+		<!-- // Small Ticks // -->
+		<g transform="translate(50%,50%) rotate(7.5)">
+			<rect x="0%-2" y="-50%" width="2" height="4" fill="fb-light-gray" />
+		</g>
+		<g transform="translate(50%,50%) rotate(22.5)">
+			<rect x="0%-2" y="-50%" width="2" height="4" fill="fb-light-gray" />
+		</g>
+		<g transform="translate(50%,50%) rotate(37.5)">
+			<rect x="0%-2" y="-50%" width="2" height="4" fill="fb-light-gray" />
+		</g>
+		<g transform="translate(50%,50%) rotate(52.5)">
+			<rect x="0%-2" y="-50%" width="2" height="4" fill="fb-light-gray" />
+		</g>
+		<g transform="translate(50%,50%) rotate(67.5)">
+			<rect x="0%-2" y="-50%" width="2" height="4" fill="fb-light-gray" />
+		</g>
+		<g transform="translate(50%,50%) rotate(82.5)">
+			<rect x="0%-2" y="-50%" width="2" height="4" fill="fb-light-gray" />
+		</g>
+		<g transform="translate(50%,50%) rotate(97.5)">
+			<rect x="0%-2" y="-50%" width="2" height="4" fill="fb-light-gray" />
+		</g>
+		<g transform="translate(50%,50%) rotate(112.5)">
+			<rect x="0%-2" y="-50%" width="2" height="4" fill="fb-light-gray" />
+		</g>
+		<g transform="translate(50%,50%) rotate(127.5)">
+			<rect x="0%-2" y="-50%" width="2" height="4" fill="fb-light-gray" />
+		</g>
+		<g transform="translate(50%,50%) rotate(142.5)">
+			<rect x="0%-2" y="-50%" width="2" height="4" fill="fb-light-gray" />
+		</g>
+		<g transform="translate(50%,50%) rotate(157.5)">
+			<rect x="0%-2" y="-50%" width="2" height="4" fill="fb-light-gray" />
+		</g>
+		<g transform="translate(50%,50%) rotate(172.5)">
+			<rect x="0%-2" y="-50%" width="2" height="4" fill="fb-light-gray" />
+		</g>
+		<g transform="translate(50%,50%) rotate(187.5)">
+			<rect x="0%-2" y="-50%" width="2" height="4" fill="fb-light-gray" />
+		</g>
+		<g transform="translate(50%,50%) rotate(202.5)">
+			<rect x="0%-2" y="-50%" width="2" height="4" fill="fb-light-gray" />
+		</g>
+		<g transform="translate(50%,50%) rotate(217.5)">
+			<rect x="0%-2" y="-50%" width="2" height="4" fill="fb-light-gray" />
+		</g>
+		<g transform="translate(50%,50%) rotate(232.5)">
+			<rect x="0%-2" y="-50%" width="2" height="4" fill="fb-light-gray" />
+		</g>
+		<g transform="translate(50%,50%) rotate(247.5)">
+			<rect x="0%-2" y="-50%" width="2" height="4" fill="fb-light-gray" />
+		</g>
+		<g transform="translate(50%,50%) rotate(262.5)">
+			<rect x="0%-2" y="-50%" width="2" height="4" fill="fb-light-gray" />
+		</g>
+		<g transform="translate(50%,50%) rotate(277.5)">
+			<rect x="0%-2" y="-50%" width="2" height="4" fill="fb-light-gray" />
+		</g>
+		<g transform="translate(50%,50%) rotate(292.5)">
+			<rect x="0%-2" y="-50%" width="2" height="4" fill="fb-light-gray" />
+		</g>
+		<g transform="translate(50%,50%) rotate(307.5)">
+			<rect x="0%-2" y="-50%" width="2" height="4" fill="fb-light-gray" />
+		</g>
+		<g transform="translate(50%,50%) rotate(322.5)">
+			<rect x="0%-2" y="-50%" width="2" height="4" fill="fb-light-gray" />
+		</g>
+		<g transform="translate(50%,50%) rotate(337.5)">
+			<rect x="0%-2" y="-50%" width="2" height="4" fill="fb-light-gray" />
+		</g>
+		<g transform="translate(50%,50%) rotate(352.5)">
+			<rect x="0%-2" y="-50%" width="2" height="4" fill="fb-light-gray" />
+		</g>
+	</svg>
+	<!-- // Hour Numbers // -->
+	<svg x="50%-138" y="50%-138" width="276" height="276">
+		<g transform="translate(50%, 50%) rotate(0)">
+			<text x="0" y="-50%+18" font-family="System-Bold" font-size="18" text-anchor="middle" fill="#FFFFFF">
+				0
+			</text>
+		</g>
+		<g transform="translate(50%, 50%) rotate(15)">
+			<text x="0" y="-50%+18" font-family="System-Bold" font-size="18" text-anchor="middle" fill="#FFFFFF">
+				1
+			</text>
+		</g>
+		<g transform="translate(50%, 50%) rotate(30)">
+			<text x="0" y="-50%+18" font-family="System-Bold" font-size="18" text-anchor="middle" fill="#FFFFFF">
+				2
+			</text>
+		</g>
+		<g transform="translate(50%, 50%) rotate(45)">
+			<text x="0" y="-50%+18" font-family="System-Bold" font-size="18" text-anchor="middle" fill="#FFFFFF">
+				3
+			</text>
+		</g>
+		<g transform="translate(50%, 50%) rotate(60)">
+			<text x="0" y="-50%+18" font-family="System-Bold" font-size="18" text-anchor="middle" fill="#FFFFFF">
+				4
+			</text>
+		</g>
+		<g transform="translate(50%, 50%) rotate(75)">
+			<text x="0" y="-50%+18" font-family="System-Bold" font-size="18" text-anchor="middle" fill="#FFFFFF">
+				5
+			</text>
+		</g>
+		<g transform="translate(50%, 50%) rotate(90)">
+			<text x="0" y="-50%+18" font-family="System-Bold" font-size="18" text-anchor="middle" fill="#FFFFFF">
+				6
+			</text>
+		</g>
+		<g transform="translate(50%, 50%) rotate(105)">
+			<text x="0" y="-50%+18" font-family="System-Bold" font-size="18" text-anchor="middle" fill="#FFFFFF">
+				7
+			</text>
+		</g>
+		<g transform="translate(50%, 50%) rotate(120)">
+			<text x="0" y="-50%+18" font-family="System-Bold" font-size="18" text-anchor="middle" fill="#FFFFFF">
+				8
+			</text>
+		</g>
+		<g transform="translate(50%, 50%) rotate(135)">
+			<text x="0" y="-50%+18" font-family="System-Bold" font-size="18" text-anchor="middle" fill="#FFFFFF">
+				9
+			</text>
+		</g>
+		<g transform="translate(50%, 50%) rotate(150)">
+			<text x="0" y="-50%+18" font-family="System-Bold" font-size="18" text-anchor="middle" fill="#FFFFFF">
+				10
+			</text>
+		</g>
+		<g transform="translate(50%, 50%) rotate(165)">
+			<text x="0" y="-50%+18" font-family="System-Bold" font-size="18" text-anchor="middle" fill="#FFFFFF">
+				11
+			</text>
+		</g>
+		<g transform="translate(50%, 50%) rotate(180)">
+			<text x="0" y="-50%+18" font-family="System-Bold" font-size="18" text-anchor="middle" fill="#FFFFFF">
+				12
+			</text>
+		</g>
+		<g transform="translate(50%, 50%) rotate(195)">
+			<text x="0" y="-50%+18" font-family="System-Bold" font-size="18" text-anchor="middle" fill="#FFFFFF">
+				13
+			</text>
+		</g>
+		<g transform="translate(50%, 50%) rotate(210)">
+			<text x="0" y="-50%+18" font-family="System-Bold" font-size="18" text-anchor="middle" fill="#FFFFFF">
+				14
+			</text>
+		</g>
+		<g transform="translate(50%, 50%) rotate(225)">
+			<text x="0" y="-50%+18" font-family="System-Bold" font-size="18" text-anchor="middle" fill="#FFFFFF">
+				15
+			</text>
+		</g>
+		<g transform="translate(50%, 50%) rotate(240)">
+			<text x="0" y="-50%+18" font-family="System-Bold" font-size="18" text-anchor="middle" fill="#FFFFFF">
+				16
+			</text>
+		</g>
+		<g transform="translate(50%, 50%) rotate(255)">
+			<text x="0" y="-50%+18" font-family="System-Bold" font-size="18" text-anchor="middle" fill="#FFFFFF">
+				17
+			</text>
+		</g>
+		<g transform="translate(50%, 50%) rotate(270)">
+			<text x="0" y="-50%+18" font-family="System-Bold" font-size="18" text-anchor="middle" fill="#FFFFFF">
+				18
+			</text>
+		</g>
+		<g transform="translate(50%, 50%) rotate(285)">
+			<text x="0" y="-50%+18" font-family="System-Bold" font-size="18" text-anchor="middle" fill="#FFFFFF">
+				19
+			</text>
+		</g>
+		<g transform="translate(50%, 50%) rotate(300)">
+			<text x="0" y="-50%+18" font-family="System-Bold" font-size="18" text-anchor="middle" fill="#FFFFFF">
+				20
+			</text>
+		</g>
+		<g transform="translate(50%, 50%) rotate(315)">
+			<text x="0" y="-50%+18" font-family="System-Bold" font-size="18" text-anchor="middle" fill="#FFFFFF">
+				21
+			</text>
+		</g>
+		<g transform="translate(50%, 50%) rotate(330)">
+			<text x="0" y="-50%+18" font-family="System-Bold" font-size="18" text-anchor="middle" fill="#FFFFFF">
+				22
+			</text>
+		</g>
+		<g transform="translate(50%, 50%) rotate(345)">
+			<text x="0" y="-50%+18" font-family="System-Bold" font-size="18" text-anchor="middle" fill="#FFFFFF">
+				23
 			</text>
 		</g>
 	</svg>
@@ -353,254 +319,18 @@
 	<g id="HourHand" transform="translate(50%,50%)">
 		<image x="$-4" y="$-105" width="8" height="124" href="hour_hand.png" />
 	</g>
-	<!-- // Hours Numbers // -->
-	<svg x="50%-113" y="50%-113" width="226" height="226">
-		<!-- // Big Ticks // -->
-		<g transform="translate(50%,50%) rotate(0)">
-			<rect x="0%-2" y="-50%" width="4" height="4" fill="#ffffff" />
-			<rect x="0%-2" y="50%-4" width="4" height="4" fill="#ffffff" />
-		</g>
-		<g transform="translate(50%,50%) rotate(15)">
-			<rect x="0%-2" y="-50%" width="4" height="4" fill="#ffffff" />
-			<rect x="0%-2" y="50%-4" width="4" height="4" fill="#ffffff" />
-		</g>
-		<g transform="translate(50%,50%) rotate(30)">
-			<rect x="0%-2" y="-50%" width="4" height="4" fill="#ffffff" />
-			<rect x="0%-2" y="50%-4" width="4" height="4" fill="#ffffff" />
-		</g>
-		<g transform="translate(50%,50%) rotate(45)">
-			<rect x="0%-2" y="-50%" width="4" height="4" fill="#ffffff" />
-			<rect x="0%-2" y="50%-4" width="4" height="4" fill="#ffffff" />
-		</g>
-		<g transform="translate(50%,50%) rotate(60)">
-			<rect x="0%-2" y="-50%" width="4" height="4" fill="#ffffff" />
-			<rect x="0%-2" y="50%-4" width="4" height="4" fill="#ffffff" />
-		</g>
-		<g transform="translate(50%,50%) rotate(75)">
-			<rect x="0%-2" y="-50%" width="4" height="4" fill="#ffffff" />
-			<rect x="0%-2" y="50%-4" width="4" height="4" fill="#ffffff" />
-		</g>
-		<g transform="translate(50%,50%) rotate(90)">
-			<rect x="0%-2" y="-50%" width="4" height="4" fill="#ffffff" />
-			<rect x="0%-2" y="50%-4" width="4" height="4" fill="#ffffff" />
-		</g>
-		<g transform="translate(50%,50%) rotate(105)">
-			<rect x="0%-2" y="-50%" width="4" height="4" fill="#ffffff" />
-			<rect x="0%-2" y="50%-4" width="4" height="4" fill="#ffffff" />
-		</g>
-		<g transform="translate(50%,50%) rotate(120)">
-			<rect x="0%-2" y="-50%" width="4" height="4" fill="#ffffff" />
-			<rect x="0%-2" y="50%-4" width="4" height="4" fill="#ffffff" />
-		</g>
-		<g transform="translate(50%,50%) rotate(135)">
-			<rect x="0%-2" y="-50%" width="4" height="4" fill="#ffffff" />
-			<rect x="0%-2" y="50%-4" width="4" height="4" fill="#ffffff" />
-		</g>
-		<g transform="translate(50%,50%) rotate(150)">
-			<rect x="0%-2" y="-50%" width="4" height="4" fill="#ffffff" />
-			<rect x="0%-2" y="50%-4" width="4" height="4" fill="#ffffff" />
-		</g>
-		<g transform="translate(50%,50%) rotate(165)">
-			<rect x="0%-2" y="-50%" width="4" height="4" fill="#ffffff" />
-			<rect x="0%-2" y="50%-4" width="4" height="4" fill="#ffffff" />
-		</g>
-		<!-- // Small Ticks // -->
-		<g transform="translate(50%,50%) rotate(7.5)">
-			<rect x="0%-2" y="-50%" width="2" height="4" fill="#ffffff" />
-		</g>
-		<g transform="translate(50%,50%) rotate(22.5)">
-			<rect x="0%-2" y="-50%" width="2" height="4" fill="#ffffff" />
-		</g>
-		<g transform="translate(50%,50%) rotate(37.5)">
-			<rect x="0%-2" y="-50%" width="2" height="4" fill="#ffffff" />
-		</g>
-		<g transform="translate(50%,50%) rotate(52.5)">
-			<rect x="0%-2" y="-50%" width="2" height="4" fill="#ffffff" />
-		</g>
-		<g transform="translate(50%,50%) rotate(67.5)">
-			<rect x="0%-2" y="-50%" width="2" height="4" fill="#ffffff" />
-		</g>
-		<g transform="translate(50%,50%) rotate(82.5)">
-			<rect x="0%-2" y="-50%" width="2" height="4" fill="#ffffff" />
-		</g>
-		<g transform="translate(50%,50%) rotate(97.5)">
-			<rect x="0%-2" y="-50%" width="2" height="4" fill="#ffffff" />
-		</g>
-		<g transform="translate(50%,50%) rotate(112.5)">
-			<rect x="0%-2" y="-50%" width="2" height="4" fill="#ffffff" />
-		</g>
-		<g transform="translate(50%,50%) rotate(127.5)">
-			<rect x="0%-2" y="-50%" width="2" height="4" fill="#ffffff" />
-		</g>
-		<g transform="translate(50%,50%) rotate(142.5)">
-			<rect x="0%-2" y="-50%" width="2" height="4" fill="#ffffff" />
-		</g>
-		<g transform="translate(50%,50%) rotate(157.5)">
-			<rect x="0%-2" y="-50%" width="2" height="4" fill="#ffffff" />
-		</g>
-		<g transform="translate(50%,50%) rotate(172.5)">
-			<rect x="0%-2" y="-50%" width="2" height="4" fill="#ffffff" />
-		</g>
-		<g transform="translate(50%,50%) rotate(187.5)">
-			<rect x="0%-2" y="-50%" width="2" height="4" fill="#ffffff" />
-		</g>
-		<g transform="translate(50%,50%) rotate(202.5)">
-			<rect x="0%-2" y="-50%" width="2" height="4" fill="#ffffff" />
-		</g>
-		<g transform="translate(50%,50%) rotate(217.5)">
-			<rect x="0%-2" y="-50%" width="2" height="4" fill="#ffffff" />
-		</g>
-		<g transform="translate(50%,50%) rotate(232.5)">
-			<rect x="0%-2" y="-50%" width="2" height="4" fill="#ffffff" />
-		</g>
-		<g transform="translate(50%,50%) rotate(247.5)">
-			<rect x="0%-2" y="-50%" width="2" height="4" fill="#ffffff" />
-		</g>
-		<g transform="translate(50%,50%) rotate(262.5)">
-			<rect x="0%-2" y="-50%" width="2" height="4" fill="#ffffff" />
-		</g>
-		<g transform="translate(50%,50%) rotate(277.5)">
-			<rect x="0%-2" y="-50%" width="2" height="4" fill="#ffffff" />
-		</g>
-		<g transform="translate(50%,50%) rotate(292.5)">
-			<rect x="0%-2" y="-50%" width="2" height="4" fill="#ffffff" />
-		</g>
-		<g transform="translate(50%,50%) rotate(307.5)">
-			<rect x="0%-2" y="-50%" width="2" height="4" fill="#ffffff" />
-		</g>
-		<g transform="translate(50%,50%) rotate(322.5)">
-			<rect x="0%-2" y="-50%" width="2" height="4" fill="#ffffff" />
-		</g>
-		<g transform="translate(50%,50%) rotate(337.5)">
-			<rect x="0%-2" y="-50%" width="2" height="4" fill="#ffffff" />
-		</g>
-		<g transform="translate(50%,50%) rotate(352.5)">
-			<rect x="0%-2" y="-50%" width="2" height="4" fill="#ffffff" />
-		</g>
-	</svg>
-	<!-- // Hour Numbers // -->
-	<svg x="50%-138" y="50%-138" width="276" height="276">
-		<g transform="translate(50%, 50%) rotate(0)">
-			<text x="0" y="-50%+18" font-size="18" text-anchor="middle" fill="#FFFFFF">
-				0
-			</text>
-		</g>
-		<g transform="translate(50%, 50%) rotate(15)">
-			<text x="0" y="-50%+18" font-size="18" text-anchor="middle" fill="#FFFFFF">
-				1
-			</text>
-		</g>
-		<g transform="translate(50%, 50%) rotate(30)">
-			<text x="0" y="-50%+18" font-size="18" text-anchor="middle" fill="#FFFFFF">
-				2
-			</text>
-		</g>
-		<g transform="translate(50%, 50%) rotate(45)">
-			<text x="0" y="-50%+18" font-size="18" text-anchor="middle" fill="#FFFFFF">
-				3
-			</text>
-		</g>
-		<g transform="translate(50%, 50%) rotate(60)">
-			<text x="0" y="-50%+18" font-size="18" text-anchor="middle" fill="#FFFFFF">
-				4
-			</text>
-		</g>
-		<g transform="translate(50%, 50%) rotate(75)">
-			<text x="0" y="-50%+18" font-size="18" text-anchor="middle" fill="#FFFFFF">
-				5
-			</text>
-		</g>
-		<g transform="translate(50%, 50%) rotate(90)">
-			<text x="0" y="-50%+18" font-size="18" text-anchor="middle" fill="#FFFFFF">
-				6
-			</text>
-		</g>
-		<g transform="translate(50%, 50%) rotate(105)">
-			<text x="0" y="-50%+18" font-size="18" text-anchor="middle" fill="#FFFFFF">
-				7
-			</text>
-		</g>
-		<g transform="translate(50%, 50%) rotate(120)">
-			<text x="0" y="-50%+18" font-size="18" text-anchor="middle" fill="#FFFFFF">
-				8
-			</text>
-		</g>
-		<g transform="translate(50%, 50%) rotate(135)">
-			<text x="0" y="-50%+18" font-size="18" text-anchor="middle" fill="#FFFFFF">
-				9
-			</text>
-		</g>
-		<g transform="translate(50%, 50%) rotate(150)">
-			<text x="0" y="-50%+18" font-size="18" text-anchor="middle" fill="#FFFFFF">
-				10
-			</text>
-		</g>
-		<g transform="translate(50%, 50%) rotate(165)">
-			<text x="0" y="-50%+18" font-size="18" text-anchor="middle" fill="#FFFFFF">
-				11
-			</text>
-		</g>
-		<g transform="translate(50%, 50%) rotate(180)">
-			<text x="0" y="-50%+18" font-size="18" text-anchor="middle" fill="#FFFFFF">
-				12
-			</text>
-		</g>
-		<g transform="translate(50%, 50%) rotate(195)">
-			<text x="0" y="-50%+18" font-size="18" text-anchor="middle" fill="#FFFFFF">
-				13
-			</text>
-		</g>
-		<g transform="translate(50%, 50%) rotate(210)">
-			<text x="0" y="-50%+18" font-size="18" text-anchor="middle" fill="#FFFFFF">
-				14
-			</text>
-		</g>
-		<g transform="translate(50%, 50%) rotate(225)">
-			<text x="0" y="-50%+18" font-size="18" text-anchor="middle" fill="#FFFFFF">
-				15
-			</text>
-		</g>
-		<g transform="translate(50%, 50%) rotate(240)">
-			<text x="0" y="-50%+18" font-size="18" text-anchor="middle" fill="#FFFFFF">
-				16
-			</text>
-		</g>
-		<g transform="translate(50%, 50%) rotate(255)">
-			<text x="0" y="-50%+18" font-size="18" text-anchor="middle" fill="#FFFFFF">
-				17
-			</text>
-		</g>
-		<g transform="translate(50%, 50%) rotate(270)">
-			<text x="0" y="-50%+18" font-size="18" text-anchor="middle" fill="#FFFFFF">
-				18
-			</text>
-		</g>
-		<g transform="translate(50%, 50%) rotate(285)">
-			<text x="0" y="-50%+18" font-size="18" text-anchor="middle" fill="#FFFFFF">
-				19
-			</text>
-		</g>
-		<g transform="translate(50%, 50%) rotate(300)">
-			<text x="0" y="-50%+18" font-size="18" text-anchor="middle" fill="#FFFFFF">
-				20
-			</text>
-		</g>
-		<g transform="translate(50%, 50%) rotate(315)">
-			<text x="0" y="-50%+18" font-size="18" text-anchor="middle" fill="#FFFFFF">
-				21
-			</text>
-		</g>
-		<g transform="translate(50%, 50%) rotate(330)">
-			<text x="0" y="-50%+18" font-size="18" text-anchor="middle" fill="#FFFFFF">
-				22
-			</text>
-		</g>
-		<g transform="translate(50%, 50%) rotate(345)">
-			<text x="0" y="-50%+18" font-size="18" text-anchor="middle" fill="#FFFFFF">
-				23
-			</text>
-		</g>
-	</svg>
-	<circle id="Center" fill="#383838" cx="50%" cy="50%" r="10" />
+	<circle id="Center" fill="fb-extra-dark-gray" cx="50%" cy="50%" r="10" />
 	<circle id="Center" fill="#181818" cx="50%" cy="50%" r="8" />
+	<!-- // Stats // -->
+	<text id="NowDate" x="50%" y="50%-36" font-size="18" text-anchor="middle" fill="#ffffff">
+		24.12.2019
+	</text>
+	<image id="StepsIcon" href="stat_steps_solid_24px.png" fill="fb-cerulean" width="18" height="18" x="8" y="100%-56" />
+	<text id="Steps" x="8" y="100%-18" font-size="16" fill="#ffffff" text-anchor="start" text-length="8">
+		0
+	</text>
+	<image id="BatteryIcon" href="stat_am_solid_24px.png" fill="fb-green" width="18" height="18" x="100%-26" y="100%-56" />
+	<text id="Battery" x="100%-8" y="100%-18" font-size="16" fill="#ffffff" text-anchor="end" text-length="4">
+		100%
+	</text>
 </svg>
