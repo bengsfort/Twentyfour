@@ -67,7 +67,6 @@
 			</text>
 		</g>
 	</svg>
-	<!-- // Hours Numbers // -->
 	<svg x="50%-113" y="50%-113" width="226" height="226">
 		<!-- // Big Ticks // -->
 		<g transform="translate(50%,50%) rotate(0)">
@@ -195,122 +194,122 @@
 	<!-- // Hour Numbers // -->
 	<svg x="50%-138" y="50%-138" width="276" height="276">
 		<g transform="translate(50%, 50%) rotate(0)">
-			<text x="0" y="-50%+18" font-family="System-Bold" font-size="18" text-anchor="middle" fill="#FFFFFF">
+			<text id="hour_0_24" x="0" y="-50%+18" font-family="System-Regular" font-size="21" text-anchor="middle" fill="#FFFFFF">
 				0
 			</text>
 		</g>
 		<g transform="translate(50%, 50%) rotate(15)">
-			<text x="0" y="-50%+18" font-family="System-Bold" font-size="18" text-anchor="middle" fill="#FFFFFF">
+			<text id="hour_1_24" x="0" y="-50%+18" font-family="System-Regular" font-size="21" text-anchor="middle" fill="#FFFFFF">
 				1
 			</text>
 		</g>
 		<g transform="translate(50%, 50%) rotate(30)">
-			<text x="0" y="-50%+18" font-family="System-Bold" font-size="18" text-anchor="middle" fill="#FFFFFF">
+			<text id="hour_2_24" x="0" y="-50%+18" font-family="System-Regular" font-size="21" text-anchor="middle" fill="#FFFFFF">
 				2
 			</text>
 		</g>
 		<g transform="translate(50%, 50%) rotate(45)">
-			<text x="0" y="-50%+18" font-family="System-Bold" font-size="18" text-anchor="middle" fill="#FFFFFF">
+			<text id="hour_3_24" x="0" y="-50%+18" font-family="System-Regular" font-size="21" text-anchor="middle" fill="#FFFFFF">
 				3
 			</text>
 		</g>
 		<g transform="translate(50%, 50%) rotate(60)">
-			<text x="0" y="-50%+18" font-family="System-Bold" font-size="18" text-anchor="middle" fill="#FFFFFF">
+			<text id="hour_4_24" x="0" y="-50%+18" font-family="System-Regular" font-size="21" text-anchor="middle" fill="#FFFFFF">
 				4
 			</text>
 		</g>
 		<g transform="translate(50%, 50%) rotate(75)">
-			<text x="0" y="-50%+18" font-family="System-Bold" font-size="18" text-anchor="middle" fill="#FFFFFF">
+			<text id="hour_5_24" x="0" y="-50%+18" font-family="System-Regular" font-size="21" text-anchor="middle" fill="#FFFFFF">
 				5
 			</text>
 		</g>
 		<g transform="translate(50%, 50%) rotate(90)">
-			<text x="0" y="-50%+18" font-family="System-Bold" font-size="18" text-anchor="middle" fill="#FFFFFF">
+			<text id="hour_6_24" x="0" y="-50%+18" font-family="System-Regular" font-size="21" text-anchor="middle" fill="#FFFFFF">
 				6
 			</text>
 		</g>
 		<g transform="translate(50%, 50%) rotate(105)">
-			<text x="0" y="-50%+18" font-family="System-Bold" font-size="18" text-anchor="middle" fill="#FFFFFF">
+			<text id="hour_7_24" x="0" y="-50%+18" font-family="System-Regular" font-size="21" text-anchor="middle" fill="#FFFFFF">
 				7
 			</text>
 		</g>
 		<g transform="translate(50%, 50%) rotate(120)">
-			<text x="0" y="-50%+18" font-family="System-Bold" font-size="18" text-anchor="middle" fill="#FFFFFF">
+			<text id="hour_8_24" x="0" y="-50%+18" font-family="System-Regular" font-size="21" text-anchor="middle" fill="#FFFFFF">
 				8
 			</text>
 		</g>
 		<g transform="translate(50%, 50%) rotate(135)">
-			<text x="0" y="-50%+18" font-family="System-Bold" font-size="18" text-anchor="middle" fill="#FFFFFF">
+			<text id="hour_9_24" x="0" y="-50%+18" font-family="System-Regular" font-size="21" text-anchor="middle" fill="#FFFFFF">
 				9
 			</text>
 		</g>
 		<g transform="translate(50%, 50%) rotate(150)">
-			<text x="0" y="-50%+18" font-family="System-Bold" font-size="18" text-anchor="middle" fill="#FFFFFF">
+			<text id="hour_10_24" x="0" y="-50%+18" font-family="System-Regular" font-size="21" text-anchor="middle" fill="#FFFFFF">
 				10
 			</text>
 		</g>
 		<g transform="translate(50%, 50%) rotate(165)">
-			<text x="0" y="-50%+18" font-family="System-Bold" font-size="18" text-anchor="middle" fill="#FFFFFF">
+			<text id="hour_11_24" x="0" y="-50%+18" font-family="System-Regular" font-size="21" text-anchor="middle" fill="#FFFFFF">
 				11
 			</text>
 		</g>
 		<g transform="translate(50%, 50%) rotate(180)">
-			<text x="0" y="-50%+18" font-family="System-Bold" font-size="18" text-anchor="middle" fill="#FFFFFF">
+			<text id="hour_12_24" x="0" y="-50%+18" font-family="System-Regular" font-size="21" text-anchor="middle" fill="#FFFFFF">
 				12
 			</text>
 		</g>
 		<g transform="translate(50%, 50%) rotate(195)">
-			<text x="0" y="-50%+18" font-family="System-Bold" font-size="18" text-anchor="middle" fill="#FFFFFF">
+			<text id="hour_13_24" x="0" y="-50%+18" font-family="System-Regular" font-size="21" text-anchor="middle" fill="#FFFFFF">
 				13
 			</text>
 		</g>
 		<g transform="translate(50%, 50%) rotate(210)">
-			<text x="0" y="-50%+18" font-family="System-Bold" font-size="18" text-anchor="middle" fill="#FFFFFF">
+			<text id="hour_14_24" x="0" y="-50%+18" font-family="System-Regular" font-size="21" text-anchor="middle" fill="#FFFFFF">
 				14
 			</text>
 		</g>
 		<g transform="translate(50%, 50%) rotate(225)">
-			<text x="0" y="-50%+18" font-family="System-Bold" font-size="18" text-anchor="middle" fill="#FFFFFF">
+			<text id="hour_15_24" x="0" y="-50%+18" font-family="System-Regular" font-size="21" text-anchor="middle" fill="#FFFFFF">
 				15
 			</text>
 		</g>
 		<g transform="translate(50%, 50%) rotate(240)">
-			<text x="0" y="-50%+18" font-family="System-Bold" font-size="18" text-anchor="middle" fill="#FFFFFF">
+			<text id="hour_16_24" x="0" y="-50%+18" font-family="System-Regular" font-size="21" text-anchor="middle" fill="#FFFFFF">
 				16
 			</text>
 		</g>
 		<g transform="translate(50%, 50%) rotate(255)">
-			<text x="0" y="-50%+18" font-family="System-Bold" font-size="18" text-anchor="middle" fill="#FFFFFF">
+			<text id="hour_17_24" x="0" y="-50%+18" font-family="System-Regular" font-size="21" text-anchor="middle" fill="#FFFFFF">
 				17
 			</text>
 		</g>
 		<g transform="translate(50%, 50%) rotate(270)">
-			<text x="0" y="-50%+18" font-family="System-Bold" font-size="18" text-anchor="middle" fill="#FFFFFF">
+			<text id="hour_18_24" x="0" y="-50%+18" font-family="System-Regular" font-size="21" text-anchor="middle" fill="#FFFFFF">
 				18
 			</text>
 		</g>
 		<g transform="translate(50%, 50%) rotate(285)">
-			<text x="0" y="-50%+18" font-family="System-Bold" font-size="18" text-anchor="middle" fill="#FFFFFF">
+			<text id="hour_19_24" x="0" y="-50%+18" font-family="System-Regular" font-size="21" text-anchor="middle" fill="#FFFFFF">
 				19
 			</text>
 		</g>
 		<g transform="translate(50%, 50%) rotate(300)">
-			<text x="0" y="-50%+18" font-family="System-Bold" font-size="18" text-anchor="middle" fill="#FFFFFF">
+			<text id="hour_20_24" x="0" y="-50%+18" font-family="System-Regular" font-size="21" text-anchor="middle" fill="#FFFFFF">
 				20
 			</text>
 		</g>
 		<g transform="translate(50%, 50%) rotate(315)">
-			<text x="0" y="-50%+18" font-family="System-Bold" font-size="18" text-anchor="middle" fill="#FFFFFF">
+			<text id="hour_21_24" x="0" y="-50%+18" font-family="System-Regular" font-size="21" text-anchor="middle" fill="#FFFFFF">
 				21
 			</text>
 		</g>
 		<g transform="translate(50%, 50%) rotate(330)">
-			<text x="0" y="-50%+18" font-family="System-Bold" font-size="18" text-anchor="middle" fill="#FFFFFF">
+			<text id="hour_22_24" x="0" y="-50%+18" font-family="System-Regular" font-size="21" text-anchor="middle" fill="#FFFFFF">
 				22
 			</text>
 		</g>
 		<g transform="translate(50%, 50%) rotate(345)">
-			<text x="0" y="-50%+18" font-family="System-Bold" font-size="18" text-anchor="middle" fill="#FFFFFF">
+			<text id="hour_23_24" x="0" y="-50%+18" font-family="System-Regular" font-size="21" text-anchor="middle" fill="#FFFFFF">
 				23
 			</text>
 		</g>

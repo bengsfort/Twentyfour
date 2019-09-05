@@ -12,7 +12,7 @@
     "appType": "clockface",
     "appDisplayName": "Twentyfour",
     "iconFile": "resources/icon.png",
-    "wipeColor": "#ffffff",
+    "wipeColor": "#000000",
     "requestedPermissions": [
       "access_activity"
     ],

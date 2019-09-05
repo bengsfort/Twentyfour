@@ -1,11 +1,17 @@
 import clock from "clock";
 import document from "document";
 import { battery } from "power";
+import { preferences } from "user-settings";
+import * as messaging from "messaging";
 import { me as appbit } from "appbit";
 import { today } from "user-activity";
 
 // Update every
 clock.granularity = "seconds";
+
+// let use12hr = preferences.clockDisplay === "12h";
+let activeHour = 0;
+let activeHourNode = document.getElementById("hour_0_24");
 
 // Time
 const hourHand = document.getElementById("HourHand");
@@ -18,6 +24,9 @@ const batteryIcon = document.getElementById("BatteryIcon");
 const stepsText = document.getElementById("Steps");
 const stepsIcon = document.getElementById("StepsIcon");
 
+let monthBeforeDay = false;
+
+// Helpers
 function hoursToAngle(hours, minutes) {
   const hourAngle = (360 / 24) * hours;
   const minAngle = (360 / 24 / 60) * minutes;
@@ -30,11 +39,14 @@ function minutesToArc(minutes, seconds) {
   return mins + secs;
 }
 
+// Update Functions
 function updateDate(date) {
   const day = date.getUTCDate();
   const month = date.getUTCMonth() + 1; // This is 0-11
   const year = date.getUTCFullYear();
-  dateText.text = day + "." + month + "." + year;
+  dateText.text = monthBeforeDay
+    ? `${month}.${day}.${year}`
+    : `${day}.${month}.${year}`;
 }
 
 function updateSteps() {
@@ -43,13 +55,34 @@ function updateSteps() {
   }
 }
 
+function updateActiveHour(hours) {
+  if (hours !== activeHour) {
+    // Revert old one back to normal
+    activeHourNode.style.fontFamily = "System-Regular";
+    activeHourNode.style.fontSize = 21;
+
+    // Cache new hour and cache node of the new active hour
+    activeHour = hours;
+    activeHourNode = document.getElementById(`hour_${activeHour}_24`);
+    activeHourNode.style.fontFamily = "System-Bold";
+    activeHourNode.style.fontSize = 24;
+  }
+}
+
 function updateClock({ date }) {
+  // if ((preferences.clockDisplay === "12h") !== use12hr) {
+  //   use12hr = preferences.clockDisplay === "12h";
+  //   makeClock12hr(use12hr);
+  // }
+
   const hours = date.getHours();
   const mins = date.getMinutes();
   const secs = date.getSeconds();
 
   updateSteps();
   updateDate(date);
+  updateActiveHour(hours);
+
   hourHand.groupTransform.rotate.angle = hoursToAngle(hours, mins);
   minutesProgress.sweepAngle = minutesToArc(mins, secs);
 }
@@ -65,6 +98,24 @@ function updateBattery() {
   }
 }
 
+function updateDateFormat(evt) {
+  console.log(
+    "updating the date format to have month before day == " + evt.data.value
+  );
+  monthBeforeDay = evt.data.value;
+}
+
+// function makeClock12hr(val) {
+//   let node = document.getElementById("hour_0_24");
+//   node.text = val ? "12" : "0";
+//   for (let h = 13; h <= 23; h++) {
+//     node = document.getElementById(`hour_${h}_24`);
+//     node.text = `${val ? h - 12 : h}`;
+//   }
+// }
+
+// makeClock12hr(use12hr);
+
 if (appbit.permissions.granted("access_activity")) {
   stepsIcon.style.visibility = "visible";
   stepsText.style.visibility = "visible";
@@ -76,3 +127,4 @@ if (appbit.permissions.granted("access_activity")) {
 updateBattery();
 clock.ontick = evt => updateClock(evt);
 battery.onchange = () => updateBattery();
+messaging.peerSocket.onmessage = evt => updateDateFormat(evt);
