@@ -1,7 +1,6 @@
 import clock from "clock";
 import document from "document";
 import { battery } from "power";
-import { preferences } from "user-settings";
 import * as messaging from "messaging";
 import { me as appbit } from "appbit";
 import { today } from "user-activity";
@@ -9,7 +8,7 @@ import { today } from "user-activity";
 // Update every
 clock.granularity = "seconds";
 
-// let use12hr = preferences.clockDisplay === "12h";
+// let use12hr = preferences.clockDisplay === "12h"; // removed for now
 let activeHour = 0;
 let activeHourNode = document.getElementById("hour_0_24");
 
@@ -70,6 +69,7 @@ function updateActiveHour(hours) {
 }
 
 function updateClock({ date }) {
+  // @todo: Removed for now
   // if ((preferences.clockDisplay === "12h") !== use12hr) {
   //   use12hr = preferences.clockDisplay === "12h";
   //   makeClock12hr(use12hr);
@@ -105,6 +105,7 @@ function updateDateFormat(evt) {
   monthBeforeDay = evt.data.value;
 }
 
+// @todo: Removed this cause I can't seem to find the 12hr pref option anywhere and this is a 24hr face.
 // function makeClock12hr(val) {
 //   let node = document.getElementById("hour_0_24");
 //   node.text = val ? "12" : "0";
@@ -113,7 +114,6 @@ function updateDateFormat(evt) {
 //     node.text = `${val ? h - 12 : h}`;
 //   }
 // }
-
 // makeClock12hr(use12hr);
 
 if (appbit.permissions.granted("access_activity")) {
