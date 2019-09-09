@@ -324,11 +324,11 @@
 	<text id="NowDate" x="50%" y="50%-36" font-size="18" text-anchor="middle" fill="#ffffff">
 		24.12.2019
 	</text>
-	<image id="StepsIcon" href="stat_steps_solid_24px.png" fill="fb-cerulean" width="18" height="18" x="8" y="100%-56" />
+	<image id="BottomLeftIcon" href="stat_steps_solid_24px.png" fill="fb-cerulean" width="18" height="18" x="8" y="100%-56" />
 	<text id="Steps" x="8" y="100%-18" font-size="16" fill="#ffffff" text-anchor="start" text-length="8">
 		0
 	</text>
-	<image id="BatteryIcon" href="stat_am_solid_24px.png" fill="fb-green" width="18" height="18" x="100%-26" y="100%-56" />
+	<image id="BottomRightIcon" href="stat_battery_solid_24px.png" fill="fb-green" width="18" height="18" x="100%-26" y="100%-56" />
 	<text id="Battery" x="100%-8" y="100%-18" font-size="16" fill="#ffffff" text-anchor="end" text-length="4">
 		100%
 	</text>

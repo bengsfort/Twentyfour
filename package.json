@@ -5,7 +5,8 @@
   "license": "UNLICENSED",
   "devDependencies": {
     "@fitbit/sdk": "~3.1.2",
-    "@fitbit/sdk-cli": "^1.6.3"
+    "@fitbit/sdk-cli": "^1.6.3",
+    "fitbit-sdk-types": "^4.1.6"
   },
   "fitbit": {
     "appUUID": "993e4b9a-4491-46e3-8b29-48bf37ad796f",
@@ -14,7 +15,8 @@
     "iconFile": "resources/icon.png",
     "wipeColor": "#000000",
     "requestedPermissions": [
-      "access_activity"
+      "access_activity",
+      "access_heart_rate"
     ],
     "buildTargets": [
       "meson"
