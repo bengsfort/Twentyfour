@@ -28,6 +28,7 @@ const UPDATE_FUNCTIONS = {
   [StatTypes.Distance]: updateDistance,
   [StatTypes.Floors]: updateFloors,
   [StatTypes.Active]: updateMinutesActive,
+  [StatTypes.Calories]: updateCalories,
   // Noops because they are handled specially
   [StatTypes.Heartrate]: NOOP,
   [StatTypes.Battery]: NOOP
@@ -41,7 +42,8 @@ const ICON_COLORS = {
   [StatTypes.Floors]: "fb-violet",
   [StatTypes.Active]: "fb-peach",
   [StatTypes.Heartrate]: "fb-pink",
-  [StatTypes.Battery]: "fb-green"
+  [StatTypes.Battery]: "fb-green",
+  [StatTypes.Calories]: "fb-peach"
 };
 
 // State-ish
@@ -92,6 +94,14 @@ function heartRateIsActive(): boolean {
 }
 
 // Stat update functions
+function updateCalories(el: TextElement) {
+  if (appbit.permissions.granted("access_activity")) {
+    el.text = `${today.adjusted.calories}`;
+  } else {
+    el.text = `--`;
+  }
+}
+
 function updateSteps(el: TextElement) {
   if (appbit.permissions.granted("access_activity")) {
     el.text = `${today.adjusted.steps}`;
@@ -128,7 +138,10 @@ function updateMinutesActive(el: TextElement) {
 // Context update functions
 function updateStatIcon(key: "left" | "right", val: StatTypes) {
   const icon = key === "left" ? bottomLeftIcon : bottomRightIcon;
-  icon.href = `stat_${val}_solid_24px.png`;
+
+  // We want to use the same icon for Active + Calories
+  const id = val === StatTypes.Calories ? StatTypes.Active : val;
+  icon.href = `stat_${id}_solid_24px.png`;
   icon.style.fill = ICON_COLORS[val];
 }
 

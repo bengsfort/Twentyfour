@@ -15,7 +15,8 @@ export enum StatTypes {
   Distance = "distance",
   Floors = "floors",
   Active = "active",
-  Heartrate = "heartrate"
+  Heartrate = "heartrate",
+  Calories = "calories"
 }
 
 export const DEFAULTS = {

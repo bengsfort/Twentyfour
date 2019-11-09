@@ -34,8 +34,9 @@ function TwentyfourSettings() {
             { name: "Battery", value: StatTypes.Battery },
             { name: "Distance", value: StatTypes.Distance },
             { name: "Floors", value: StatTypes.Floors },
-            { name: "Active", value: StatTypes.Active },
-            { name: "Heartrate", value: StatTypes.Heartrate }
+            { name: "Active Minutes", value: StatTypes.Active },
+            { name: "Heartrate", value: StatTypes.Heartrate },
+            { name: "Calories", value: StatTypes.Calories }
           ]}
         />
         <Select
@@ -46,8 +47,9 @@ function TwentyfourSettings() {
             { name: "Battery", value: StatTypes.Battery },
             { name: "Distance", value: StatTypes.Distance },
             { name: "Floors", value: StatTypes.Floors },
-            { name: "Active", value: StatTypes.Active },
-            { name: "Heartrate", value: StatTypes.Heartrate }
+            { name: "Active Minutes", value: StatTypes.Active },
+            { name: "Heartrate", value: StatTypes.Heartrate },
+            { name: "Calories", value: StatTypes.Calories }
           ]}
         />
       </Section>
